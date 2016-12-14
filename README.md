@@ -81,3 +81,13 @@ Sometimes though, they're useful bugfixes or improvements that you want to share
 You "pull" changes from a remote repository into yours. You "push" changes from a local repository to a remote one.
 
 On your repo's page in Github, click "Make a pull request". Github knows where you got this fork from, and assumes that's who you want to pull your changes. Review the changes that are included in this pull request: it should just be your new file. Go ahead and click "Create pull request".
+
+The pull request notifies the upstream maintainers that you want them to pull your changes. They may offer feedback about your changes, and once they're satisfied, they'll pull your code into their repository.
+
+### 06. Keeping your repo up to date with origin
+
+While you're fiddling around with your copy of the code, the upstream maintainers are probably also making modifications. To keep your copy up to date with upstream, follow these guides:
+
+https://help.github.com/articles/configuring-a-remote-for-a-fork/
+
+https://help.github.com/articles/syncing-a-fork/
